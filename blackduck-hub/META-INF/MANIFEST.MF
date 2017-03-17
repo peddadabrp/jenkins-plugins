@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: builder
+Build-Jdk: 1.8.0_60
+Extension-Name: blackduck-hub
+Specification-Title: Runs the Black Duck Hub scan in Jenkins builds
+Specification-Vendor: Black Duck Software, Inc.
+Implementation-Vendor: Black Duck Software, Inc.
+Implementation-Title: blackduck-hub
+Implementation-Version: 2.1.0
+Group-Id: com.blackducksoftware.integration
+Short-Name: blackduck-hub
+Long-Name: Black Duck Hub Plugin for Jenkins
+Url: https://wiki.jenkins-ci.org/display/JENKINS/BlackDuck+Hub+Plugin
+Plugin-Version: 2.1.0
+Hudson-Version: 1.580.3
+Jenkins-Version: 1.580.3
+Plugin-Dependencies: maven-plugin:2.14;resolution:=optional,gradle:1.2
+ 5;resolution:=optional,workflow-step-api:2.3;resolution:=optional,cre
+ dentials:1.26
+Plugin-Developers: 
+

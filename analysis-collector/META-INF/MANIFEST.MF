@@ -1,0 +1,29 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: hafner
+Build-Jdk: 1.8.0_112
+Extension-Name: analysis-collector
+Specification-Title: This plug-in is an add-on for the plug-ins Checks
+ tyle, Dry, FindBugs, PMD, Tasks, and Warnings:
+     the plug-in collects the different analysis results and shows the
+  results in a combined trend graph.
+     Additionally, the plug-in provides health reporting and build sta
+ bility based on these combined results.
+Implementation-Title: analysis-collector
+Implementation-Version: 1.50
+Group-Id: org.jvnet.hudson.plugins
+Short-Name: analysis-collector
+Long-Name: Static Analysis Collector Plug-in
+Url: http://wiki.jenkins-ci.org/x/tgeIAg
+Plugin-Version: 1.50
+Hudson-Version: 1.625.1
+Jenkins-Version: 1.625.1
+Plugin-Dependencies: tasks:4.46;resolution:=optional,warnings:4.49;res
+ olution:=optional,matrix-project:1.2.1,dashboard-view:2.9.4;resolutio
+ n:=optional,findbugs:4.62;resolution:=optional,dry:2.42;resolution:=o
+ ptional,pmd:3.42;resolution:=optional,checkstyle:3.43;resolution:=opt
+ ional,analysis-core:1.80,token-macro:1.10;resolution:=optional,maven-
+ plugin:2.9
+Plugin-Developers: Ulli Hafner:drulli:ullrich.hafner@gmail.com
+

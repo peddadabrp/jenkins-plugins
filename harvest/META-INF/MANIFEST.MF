@@ -1,0 +1,18 @@
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: adam
+Build-Jdk: 1.7.0_71
+Extension-Name: harvest
+Specification-Title: Integrates Jenkins to CA Harvest SCM
+Implementation-Title: harvest
+Implementation-Version: 0.5.1
+Group-Id: org.jenkins-ci.plugins
+Short-Name: harvest
+Long-Name: Jenkins Harvest SCM
+Url: http://wiki.jenkins-ci.org/display/JENKINS/Harvest+Plugin
+Plugin-Version: 0.5.1
+Hudson-Version: 1.609.2
+Jenkins-Version: 1.609.2
+Plugin-Developers: G‡bor Lipt‡k:gliptak:
+
